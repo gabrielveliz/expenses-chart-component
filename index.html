@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+  <main>
+    <div class="contenedor">
+      <div class="primera_seccion">
+        <div class="balance">
+          <div class="balance_texto"><span>My balance</span></div>
+          <div class="balance_numeros"><span>$921.48</span></div>
+        </div>
+        <div class="logo">
+          <span><img src="images/logo.svg" alt="circulo"></span>
+          
+        </div>
+      </div>
+      <div class="segunda_seccion">
+        <div class="spending"><span>Spending - Last 7 days</span></div>
+        <div class="tabla">
+          <div class="orden">
+            
+            <div class="grafico mon" id="graf1"><div class="monto" id="uno"><span>$17.45</span></div></div>
+            <div class="dia"><span>mon</span></div>
+          </div>
+          <div class="orden">
+            
+            <div class="grafico tue" id="graf2"><div class="monto" id="dos"><span>$37.10</span></div></div>
+            <div class="dia"><span>tue</span></div>
+          </div>
+          <div class="orden">
+            
+            <div class="grafico wed" id="graf3"><div class="monto" id="tres"><span>$52.36</span></div></div>
+            <div class="dia"><span>wed</span></div>
+          </div>
+          <div class="orden">
+            
+            <div class="grafico thu" id="graf4"><div class="monto" id="cuatro"><span>$31.07</span></div></div>
+            <div class="dia"><span>thu</span></div>
+          </div>
+          <div class="orden">
+            
+            <div class="grafico fri" id="graf5"><div class="monto" id="cinco"><span>$20.94</span></div></div>
+            <div class="dia"><span>fri</span></div>
+          </div>
+          <div class="orden">
+             
+            <div class="grafico sat" id="graf6"><div class="monto" id="seis"><span>$44.40</span></div></div>
+            <div class="dia"><span>sat</span></div>
+          </div>
+          <div class="orden">
+            
+            <div class="grafico sun" id="graf7"><div class="monto" id="siete"><span>$33.30</span></div></div>
+            <div class="dia"><span>sun</span></div>
+          </div>
+        </div>
+        <div class="seccion_total_variacion">
+          <div class="total_texto"><span>Total this month</span></div>
+          <div class="total_variacion">
+            <div class="total_valor"><span>$478.33</span></div>
+            <div class="variacion">
+              <div class="variacion_digitos der"><span>+2.4%</span></div>
+              <div class="variacion_texto der"><span>from last month</span></div>
+            </div>
+          </div>
+        </div>        
+      </div>
+      <footer>  
+      <div class="attribution" >
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="https://github.com/gabrielveliz" target="_blank">Gabriel Veliz</a>.
+      </div>
+    </footer>
+    </div>
+    
+  </main>
+
+</body>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+
+</html>
